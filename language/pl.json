@@ -3,117 +3,117 @@
     {
       "widgets": [
         {
-          "label": "Default"
+          "label": "Domyślna"
         }
       ],
-      "label": "Cards",
-      "entity": "card",
+      "label": "Karty",
+      "entity": "karta",
       "field": {
-        "label": "Card",
+        "label": "Karta",
         "fields": [
           {
-            "label": "Image"
+            "label": "Ilustracja"
           },
           {
-            "label": "Alternative text for Image",
-            "description": "Describe what can be seen in the photo. The text is read by text-to-speech tools needed by visually impaired users."
+            "label": "Alternatywny tekst dla obrazu",
+            "description": "Opisz, co można zobaczyć na zdjęciu. Tekst jest odczytywany przez narzędzia zamiany tekstu na mowę potrzebne użytkownikom niedowidzącym."
           },
           {
-            "label": "Audio Track",
-            "description": "An optional sound that plays when the card is turned."
+            "label": "Ścieżka dźwiękowa",
+            "description": "Opcjonalny dźwięk odtwarzany po odwróceniu karty."
           },
           {
-            "label": "Matching Image",
-            "description": "An optional image to match against instead of using two cards with the same image."
+            "label": "Dopasowany obraz",
+            "description": "Opcjonalny obraz do dopasowania zamiast używania dwóch kart z tym samym obrazem."
           },
           {
-            "label": "Alternative text for Matching Image",
-            "description": "Describe what can be seen in the photo. The text is read by text-to-speech tools needed by visually impaired users."
+            "label": "Alternatywny tekst do dopasowania obrazu",
+            "description": "Opisz, co można zobaczyć na zdjęciu. Tekst jest odczytywany przez narzędzia zamiany tekstu na mowę potrzebne użytkownikom niedowidzącym."
           },
           {
-            "label": "Matching Audio Track",
-            "description": "An optional sound that plays when the second card is turned."
+            "label": "Dopasowana ścieżka dźwiękowa",
+            "description": "Opcjonalny dźwięk odtwarzany po odwróceniu drugiej karty."
           },
           {
-            "label": "Description",
-            "description": "An optional short text that will pop up once the two matching cards are found."
+            "label": "Opis",
+            "description": "Opcjonalny krótki tekst, który pojawi się po znalezieniu dwóch pasujących kart."
           }
         ]
       }
     },
     {
-      "label": "Behavioural settings",
-      "description": "These options will let you control how the game behaves.",
+      "label": "Ustawienia behawioralne",
+      "description": "Te opcje pozwolą Ci kontrolować zachowanie gry.",
       "fields": [
         {
-          "label": "Position the cards in a square",
-          "description": "Will try to match the number of columns and rows when laying out the cards. Afterward, the cards will be scaled to fit the container."
+          "label": "Umieść karty w kwadracie",
+          "description": "Podczas układania kart spróbuje dopasować liczbę kolumn i wierszy. Następnie karty zostaną przeskalowane, aby pasowały do pojemnika."
         },
         {
-          "label": "Number of cards to use",
-          "description": "Setting this to a number greater than 2 will make the game pick random cards from the list of cards."
+          "label": "Liczba kart do użycia",
+          "description": "Ustawienie tej wartości na liczbę większą niż 2 spowoduje, że gra wybierze losowe karty z listy kart."
         },
         {
-          "label": "Add button for retrying when the game is over"
+          "label": "Dodaj przycisk do ponownej próby po zakończeniu gry"
         }
       ]
     },
     {
-      "label": "Look and feel",
-      "description": "Control the visuals of the game.",
+      "label": "Spójrz i poczuj",
+      "description": "Kontroluj efekty wizualne gry.",
       "fields": [
         {
-          "label": "Theme Color",
-          "description": "Choose a color to create a theme for your card game."
+          "label": "Kolor motywu",
+          "description": "Wybierz kolor, aby stworzyć motyw do swojej gry karcianej."
         },
         {
-          "label": "Card Back",
-          "description": "Use a custom back for your cards."
+          "label": "Rewers karty",
+          "description": "Użyj niestandardowego rewersu dla swoich kart."
         }
       ]
     },
     {
-      "label": "Localization",
+      "label": "Lokalizacja",
       "fields": [
         {
-          "label": "Card turns text",
-          "default": "Card turns"
+          "label": "Karta zmienia tekst",
+          "default": "Karta się obraca"
         },
         {
-          "label": "Time spent text",
-          "default": "Time spent"
+          "label": "Czas spędzony na tekście",
+          "default": "Czas spędzony"
         },
         {
-          "label": "Feedback text",
-          "default": "Good work!"
+          "label": "Tekst opinii",
+          "default": "Dobra robota!"
         },
         {
-          "label": "Try again button text",
-          "default": "Try again?"
+          "label": "Spróbuj ponownie tekst przycisku",
+          "default": "Spróbuj ponownie?"
         },
         {
-          "label": "Close button label",
-          "default": "Close"
+          "label": "Zamknij etykietę przycisku",
+          "default": "Zamknąć"
         },
         {
-          "label": "Game label",
-          "default": "Memory Game. Find the matching cards."
+          "label": "Etykieta gry",
+          "default": "Gra pamięciowa. Znajdź pasujące karty."
         },
         {
-          "label": "Game finished label",
-          "default": "All of the cards have been found."
+          "label": "Gra zakończona etykietą",
+          "default": "Wszystkie karty zostały znalezione."
         },
         {
-          "label": "Card indexing label",
-          "default": "Card %num:"
+          "label": "Etykieta indeksująca karty",
+          "default": "Karta %num:"
         },
         {
           "label": "Card unturned label",
-          "default": "Unturned."
+          "default": "Nie odwrócony."
         },
         {
           "label": "Card matched label",
-          "default": "Match found."
+          "default": "Znaleziono dopasowanie."
         }
       ]
     }
